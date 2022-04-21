@@ -10,9 +10,8 @@ name = "robot_ik_native"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-robot_ik_base = { path = "../RobotIKBase" }
+robot_ik_base = { git = "https://github.com/kpwelsh/RobotIKBase" }
 libc = "0"
-optimization_engine = "0.6.0"
 nalgebra = "0.26"
 k = "0.25"
 
